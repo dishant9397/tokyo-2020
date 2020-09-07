@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tokyo2020">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="Tokyo 2020 Olympics"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ReminderActivity"></activity>
+        <activity
+            android:name=".TouristAttractionDetailViewActivity"
+            android:parentActivityName=".TouristAttractionListActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TouristAttractionListActivity" />
+        </activity>
+        <activity android:name=".ScheduleByDayActivity" />
+        <activity android:name=".OverallScheduleActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".TouristAttractionListActivity" />
+        <activity android:name=".ScheduleActivity" />
+        <activity android:name=".ContactUsActivity" />
+        <activity
+            android:name=".admin.addTouristAttraction"
+            android:parentActivityName=".TouristAttractionActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".TouristAttractionActivity" />
+        </activity>
+        <activity android:name=".TouristAttractionActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <receiver android:name=".ReminderBroadcast"/>
+    </application>
+
+</manifest>
