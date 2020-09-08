@@ -19,5 +19,5 @@
 4. *Subscribe to Notifications*
 <img src="https://github.com/dishant9397/tokyo-2020/blob/master/Images/Reminder%20Screen.png" height="40%" width="40%"/>
   
-5. *Contact Us Form*
+5. *Contact Us Screen*
 <img src="https://github.com/dishant9397/tokyo-2020/blob/master/Images/Contact%20Us.png" height="40%" width="40%"/>
