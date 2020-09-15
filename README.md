@@ -5,7 +5,7 @@
 * Additionally, users can also see schedule of a particular day versus overall schedule of the event by navigating to "Schecule Screen".
 * Users can contact administrator in case of any issues and also subscribe to receive notifications for vivid games.
 
-***Screenshotss***
+***Screenshots***
   
 1. *Login Screen*
 <img src="https://github.com/dishant9397/tokyo-2020/blob/master/Images/Login.png" height="40%" width="40%"/>   
